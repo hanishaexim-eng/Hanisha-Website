@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "products": "Productos",
+    "why_us": "Por qué nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Comerciante • Suministro mundial",
+    "title": "Su puerta de entrada al",
+    "title_em": "Comercio global",
+    "desc": "Abastecemos, exportamos y entregamos productos de calidad en todos los continentes. Desde materias primas hasta productos terminados—un socio de confianza para su comercio internacional.",
+    "get_quote": "Solicitar cotización",
+    "our_services": "Nuestros servicios",
+    "stat_support": "Soporte comercial"
+  },
+  "services": {
+    "badge": "Qué hacemos",
+    "title": "Soluciones de exportación e importación",
+    "desc": "Servicios comerciales integrales adaptados a empresas de cualquier escala.",
+    "sourcing_title": "Abastecimiento y adquisiciones",
+    "sourcing_desc": "Identificamos y aseguramos proveedores de calidad en todo el mundo. Materias primas, componentes o productos terminados—encontramos la fuente adecuada al precio correcto.",
+    "export_title": "Exportación y logística",
+    "export_desc": "Envíos fluidos, despacho aduanero y documentación. FOB, CIF y entrega puerta a puerta.",
+    "import_title": "Importación y distribución",
+    "import_desc": "Reciba mercancías de cualquier origen. Gestionamos logística entrante, almacenaje y entrega.",
+    "finance_title": "Pagos comerciales",
+    "finance_desc": "Condiciones de pago flexibles, cartas de crédito y acuerdos estructurados."
+  },
+  "products": {
+    "badge": "Portafolio",
+    "title": "Productos que suministramos",
+    "desc": "Diversas categorías—díganos qué necesita; nosotros abastecemos y entregamos.",
+    "agri": "Productos agrícolas",
+    "spices": "Especias",
+    "raw_materials": "Materias primas y commodities",
+    "machinery": "Maquinaria y equipo",
+    "textiles": "Textiles y prendas",
+    "consumer": "Consumidor y FMCG"
+  },
+  "why_us": {
+    "badge": "Por qué elegirnos",
+    "title": "Confiables en todo el mundo",
+    "reliable_title": "Red confiable",
+    "reliable_desc": "Proveedores y socios logísticos verificados. Calidad y entrega a tiempo son innegociables.",
+    "transparent_title": "Trato transparente",
+    "transparent_desc": "Precios claros, comunicación honesta y documentación completa. Sin costos ocultos.",
+    "scalable_title": "Soluciones escalables",
+    "scalable_desc": "Desde muestras hasta contenedores completos. Escalamos con su crecimiento."
+  },
+  "contact": {
+    "badge": "Contáctenos",
+    "title": "Inicie su próximo negocio",
+    "desc": "Describa sus necesidades de productos o solicite una cotización. Respondemos en 24 horas.",
+    "success_msg": "¡Gracias! Su consulta ha sido recibida. Le responderemos en 24 horas.",
+    "name_label": "Su nombre / Empresa *",
+    "name_placeholder": "Empresa o nombre de contacto",
+    "email_label": "Correo electrónico *",
+    "email_placeholder": "usted@empresa.com",
+    "subject_label": "Producto / Consulta *",
+    "subject_placeholder": "ej. tela de algodón, piezas de maquinaria",
+    "message_label": "Mensaje",
+    "message_placeholder": "Cantidad, destino, Incoterms...",
+    "send_btn": "Enviar consulta",
+    "or": "— o —",
+    "whatsapp_btn": "Consulta por WhatsApp",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Exportación • Importación • Comercio mundial",
+    "copyright": "Todos los derechos reservados."
+  }
+}

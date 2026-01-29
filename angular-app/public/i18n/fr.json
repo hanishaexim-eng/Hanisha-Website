@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "products": "Produits",
+    "why_us": "Pourquoi nous",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Commerçant • Approvisionnement mondial",
+    "title": "Votre porte d'entrée vers le",
+    "title_em": "commerce mondial",
+    "desc": "Nous sourçons, exportons et livrons des produits de qualité sur tous les continents. Des matières premières aux produits finis—un partenaire de confiance pour votre commerce international.",
+    "get_quote": "Demander un devis",
+    "our_services": "Nos services",
+    "stat_support": "Support commercial"
+  },
+  "services": {
+    "badge": "Ce que nous faisons",
+    "title": "Solutions export et import",
+    "desc": "Services commerciaux de bout en bout pour entreprises de toute taille.",
+    "sourcing_title": "Approvisionnement et achats",
+    "sourcing_desc": "Nous identifions et sécurisons des fournisseurs de qualité dans le monde. Matières premières, composants ou produits finis—la bonne source au bon prix.",
+    "export_title": "Export et logistique",
+    "export_desc": "Expédition fluide, dédouanement et documentation. FOB, CIF et livraison porte à porte.",
+    "import_title": "Import et distribution",
+    "import_desc": "Réception de marchandises de toute origine. Gestion logistique entrante, entreposage et livraison.",
+    "finance_title": "Paiements commerciaux",
+    "finance_desc": "Conditions de paiement flexibles, lettres de crédit et accords structurés."
+  },
+  "products": {
+    "badge": "Portefeuille",
+    "title": "Produits que nous fournissons",
+    "desc": "Catégories diverses—dites-nous ce dont vous avez besoin; nous sourçons et livrons.",
+    "agri": "Produits agricoles",
+    "spices": "Épices",
+    "raw_materials": "Matières premières et commodités",
+    "machinery": "Machines et équipements",
+    "textiles": "Textiles et vêtements",
+    "consumer": "Consommation et FMCG"
+  },
+  "why_us": {
+    "badge": "Pourquoi nous choisir",
+    "title": "De confiance dans le monde",
+    "reliable_title": "Réseau fiable",
+    "reliable_desc": "Fournisseurs et partenaires logistiques vérifiés. Qualité et livraison à temps non négociables.",
+    "transparent_title": "Transactions transparentes",
+    "transparent_desc": "Prix clairs, communication honnête et documentation complète. Pas de coûts cachés.",
+    "scalable_title": "Solutions évolutives",
+    "scalable_desc": "Des échantillons aux conteneurs complets. Nous grandissons avec vous."
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title": "Lancez votre prochaine affaire",
+    "desc": "Décrivez vos besoins en produits ou demandez un devis. Réponse sous 24 h.",
+    "success_msg": "Merci ! Votre demande a bien été reçue. Nous répondrons sous 24 h.",
+    "name_label": "Votre nom / Société *",
+    "name_placeholder": "Société ou nom du contact",
+    "email_label": "E-mail *",
+    "email_placeholder": "vous@entreprise.com",
+    "subject_label": "Produit / Demande *",
+    "subject_placeholder": "ex. tissu coton, pièces machines",
+    "message_label": "Message",
+    "message_placeholder": "Quantité, destination, Incoterms...",
+    "send_btn": "Envoyer la demande",
+    "or": "— ou —",
+    "whatsapp_btn": "Demande WhatsApp",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Export • Import • Commerce mondial",
+    "copyright": "Tous droits réservés."
+  }
+}

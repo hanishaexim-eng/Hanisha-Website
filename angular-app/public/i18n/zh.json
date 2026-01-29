@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "products": "产品",
+    "why_us": "为何选择我们",
+    "contact": "联系"
+  },
+  "hero": {
+    "badge": "贸易商 • 全球供应",
+    "title": "您的门户",
+    "title_em": "全球贸易",
+    "desc": "我们在各大洲采购、出口和交付优质产品。从原材料到成品——您国际贸易需求的可信伙伴。",
+    "get_quote": "获取报价",
+    "our_services": "我们的服务",
+    "stat_support": "贸易支持"
+  },
+  "services": {
+    "badge": "我们的服务",
+    "title": "进出口解决方案",
+    "desc": "为各种规模企业量身定制的端到端贸易服务。",
+    "sourcing_title": "采购与寻源",
+    "sourcing_desc": "我们在全球识别和对接优质供应商。原材料、零部件或成品——找到合适来源与价格。",
+    "export_title": "出口与物流",
+    "export_desc": "无缝运输、清关和单证。FOB、CIF及门到门配送。",
+    "import_title": "进口与分销",
+    "import_desc": "从任何产地接收货物。管理进境物流、仓储与配送。",
+    "finance_title": "贸易支付",
+    "finance_desc": "灵活付款条件、信用证及结构化交易。"
+  },
+  "products": {
+    "badge": "产品组合",
+    "title": "我们供应的产品",
+    "desc": "多样品类—告诉我们您的需求；我们采购并交付。",
+    "agri": "农产品",
+    "spices": "香料",
+    "raw_materials": "原材料与大宗商品",
+    "machinery": "机械与设备",
+    "textiles": "纺织品与服装",
+    "consumer": "消费品与快消品"
+  },
+  "why_us": {
+    "badge": "为何选择我们",
+    "title": "全球信赖",
+    "reliable_title": "可靠网络",
+    "reliable_desc": "主要市场经核实的供应商与物流伙伴。质量与准时交付不容妥协。",
+    "transparent_title": "透明交易",
+    "transparent_desc": "清晰定价、诚信沟通与完整单证。无隐藏费用。",
+    "scalable_title": "可扩展方案",
+    "scalable_desc": "从样品到整柜。随您业务成长而扩展。"
+  },
+  "contact": {
+    "badge": "联系我们",
+    "title": "开启您的下一笔交易",
+    "desc": "描述您的产品需求或索取报价。24小时内回复。",
+    "success_msg": "感谢！您的询盘已收到。我们将在24小时内回复。",
+    "name_label": "您的姓名 / 公司 *",
+    "name_placeholder": "公司或联系人名称",
+    "email_label": "邮箱 *",
+    "email_placeholder": "you@company.com",
+    "subject_label": "产品 / 询盘 *",
+    "subject_placeholder": "如：棉布、机械零件",
+    "message_label": "留言",
+    "message_placeholder": "数量、目的地、Incoterms...",
+    "send_btn": "发送询盘",
+    "or": "— 或 —",
+    "whatsapp_btn": "WhatsApp 询盘",
+    "email": "邮箱",
+    "phone": "电话",
+    "whatsapp": "WhatsApp",
+    "linkedin": "领英"
+  },
+  "footer": {
+    "tagline": "出口 • 进口 • 全球贸易",
+    "copyright": "版权所有。"
+  }
+}

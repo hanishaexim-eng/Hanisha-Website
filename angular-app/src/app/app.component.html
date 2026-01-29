@@ -1,0 +1,211 @@
+<header class="header">
+  <nav class="nav container">
+    <a href="#" class="logo" (click)="scrollTo('home'); $event.preventDefault()">
+      <span class="logo-icon">◆</span>
+      <span class="logo-text">HANISHA EXIM</span>
+    </a>
+    <button type="button" class="nav-toggle" aria-label="Toggle menu" [attr.aria-expanded]="navOpen" (click)="toggleNav()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" [class.open]="navOpen">
+      <li><a href="#home" (click)="scrollTo('home'); $event.preventDefault()">{{ 'nav.home' | translate }}</a></li>
+      <li><a href="#services" (click)="scrollTo('services'); $event.preventDefault()">{{ 'nav.services' | translate }}</a></li>
+      <li><a href="#products" (click)="scrollTo('products'); $event.preventDefault()">{{ 'nav.products' | translate }}</a></li>
+      <li><a href="#why-us" (click)="scrollTo('why-us'); $event.preventDefault()">{{ 'nav.why_us' | translate }}</a></li>
+      <li><a href="#contact" (click)="scrollTo('contact'); $event.preventDefault()">{{ 'nav.contact' | translate }}</a></li>
+      <li class="nav-lang">
+        <select class="lang-select" [(ngModel)]="currentLang" (ngModelChange)="setLang($event)" (click)="$event.stopPropagation()">
+          @for (lang of languages; track lang.code) {
+            <option [value]="lang.code">{{ lang.label }}</option>
+          }
+        </select>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-badge">{{ 'hero.badge' | translate }}</p>
+        <h1 class="hero-title">
+          {{ 'hero.title' | translate }}<br>
+          <em>{{ 'hero.title_em' | translate }}</em>
+        </h1>
+        <p class="hero-desc">{{ 'hero.desc' | translate }}</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary" (click)="scrollTo('contact'); $event.preventDefault()">{{ 'hero.get_quote' | translate }}</a>
+          <a href="#services" class="btn btn-outline" (click)="scrollTo('services'); $event.preventDefault()">{{ 'hero.our_services' | translate }}</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">24/7</span>
+            <span class="stat-label">{{ 'hero.stat_support' | translate }}</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        
+        <div class="hero-visual" aria-hidden="true">
+          <img src="/logo.png" alt="Hanisha EXIM" class="hero-visual-logo">
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section services">
+    <div class="container">
+      <p class="section-badge">{{ 'services.badge' | translate }}</p>
+      <h2 class="section-title">{{ 'services.title' | translate }}</h2>
+      <p class="section-desc">{{ 'services.desc' | translate }}</p>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>{{ 'services.sourcing_title' | translate }}</h3>
+          <p>{{ 'services.sourcing_desc' | translate }}</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🚢</div>
+          <h3>{{ 'services.export_title' | translate }}</h3>
+          <p>{{ 'services.export_desc' | translate }}</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3>{{ 'services.import_title' | translate }}</h3>
+          <p>{{ 'services.import_desc' | translate }}</p>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">🤝</div>
+          <h3>{{ 'services.finance_title' | translate }}</h3>
+          <p>{{ 'services.finance_desc' | translate }}</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="section products">
+    <div class="container">
+      <p class="section-badge">{{ 'products.badge' | translate }}</p>
+      <h2 class="section-title">{{ 'products.title' | translate }}</h2>
+      <p class="section-desc">{{ 'products.desc' | translate }}</p>
+      <div class="products-grid">
+        <div class="product-category">
+          <span class="product-icon">🌾</span>
+          <h4>{{ 'products.agri' | translate }}</h4>
+        </div>
+        <div class="product-category">
+          <span class="product-icon">🌶️</span>
+          <h4>{{ 'products.spices' | translate }}</h4>
+        </div>
+        <div class="product-category">
+          <span class="product-icon">🏭</span>
+          <h4>{{ 'products.raw_materials' | translate }}</h4>
+        </div>
+        <div class="product-category">
+          <span class="product-icon">⚙️</span>
+          <h4>{{ 'products.machinery' | translate }}</h4>
+        </div>
+        <div class="product-category">
+          <span class="product-icon">👕</span>
+          <h4>{{ 'products.textiles' | translate }}</h4>
+        </div>
+        <div class="product-category">
+          <span class="product-icon">🛒</span>
+          <h4>{{ 'products.consumer' | translate }}</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-us" class="section why-us">
+    <div class="container">
+      <p class="section-badge">{{ 'why_us.badge' | translate }}</p>
+      <h2 class="section-title">{{ 'why_us.title' | translate }}</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-number">01</span>
+          <h3>{{ 'why_us.reliable_title' | translate }}</h3>
+          <p>{{ 'why_us.reliable_desc' | translate }}</p>
+        </div>
+        <div class="why-card">
+          <span class="why-number">02</span>
+          <h3>{{ 'why_us.transparent_title' | translate }}</h3>
+          <p>{{ 'why_us.transparent_desc' | translate }}</p>
+        </div>
+        <div class="why-card">
+          <span class="why-number">03</span>
+          <h3>{{ 'why_us.scalable_title' | translate }}</h3>
+          <p>{{ 'why_us.scalable_desc' | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <div class="container">
+      <p class="section-badge">{{ 'contact.badge' | translate }}</p>
+      <h2 class="section-title">{{ 'contact.title' | translate }}</h2>
+      <p class="section-desc">{{ 'contact.desc' | translate }}</p>
+      <form class="contact-form" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        @if (formSuccess) {
+          <div class="form-message success show">{{ 'contact.success_msg' | translate }}</div>
+        }
+        <div class="form-row">
+          <label for="name">{{ 'contact.name_label' | translate }}</label>
+          <input type="text" id="name" name="name" [(ngModel)]="contact.name" required [placeholder]="'contact.name_placeholder' | translate">
+        </div>
+        <div class="form-row">
+          <label for="email">{{ 'contact.email_label' | translate }}</label>
+          <input type="email" id="email" name="email" [(ngModel)]="contact.email" required [placeholder]="'contact.email_placeholder' | translate">
+        </div>
+        <div class="form-row">
+          <label for="subject">{{ 'contact.subject_label' | translate }}</label>
+          <input type="text" id="subject" name="subject" [(ngModel)]="contact.subject" required [placeholder]="'contact.subject_placeholder' | translate">
+        </div>
+        <div class="form-row">
+          <label for="message">{{ 'contact.message_label' | translate }}</label>
+          <textarea id="message" name="message" rows="4" [(ngModel)]="contact.message" [placeholder]="'contact.message_placeholder' | translate"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">{{ 'contact.send_btn' | translate }}</button>
+        <div class="contact-whatsapp">
+          <span class="contact-or">{{ 'contact.or' | translate }}</span>
+          <a href="https://wa.me/919363908507?text=Hi%2C%20I'm%20interested%20in%20your%20export%2Fimport%20services.%20Could%20you%20please%20share%20more%20details%3F" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <span class="whatsapp-icon">💬</span>
+            {{ 'contact.whatsapp_btn' | translate }}
+          </a>
+        </div>
+      </form>
+      <div class="contact-info">
+        <p><strong>{{ 'contact.email' | translate }}:</strong> <a href="mailto:hanishaexim&#64;gmail.com">hanishaexim&#64;gmail.com</a></p>
+        <p><strong>{{ 'contact.phone' | translate }}:</strong> +91 9363908507</p>
+        <p><strong>{{ 'contact.whatsapp' | translate }}:</strong> <a href="https://wa.me/919363908507" target="_blank" rel="noopener noreferrer">+91 9363908507</a></p>
+        <p><strong>{{ 'contact.linkedin' | translate }}:</strong> <a href="https://www.linkedin.com/in/dhanushkodi-j-332597390/" target="_blank" rel="noopener noreferrer">linkedin.com/in/dhanushkodi-j-332597390</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-footer" (click)="scrollTo('home'); $event.preventDefault()" aria-label="Hanisha EXIM Home">
+          <img src="/logo.png" alt="Hanisha EXIM" class="logo-img">
+        </a>
+        <p>{{ 'footer.tagline' | translate }}</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home" (click)="scrollTo('home'); $event.preventDefault()">{{ 'nav.home' | translate }}</a>
+        <a href="#services" (click)="scrollTo('services'); $event.preventDefault()">{{ 'nav.services' | translate }}</a>
+        <a href="#products" (click)="scrollTo('products'); $event.preventDefault()">{{ 'nav.products' | translate }}</a>
+        <a href="#contact" (click)="scrollTo('contact'); $event.preventDefault()">{{ 'nav.contact' | translate }}</a>
+      </div>
+    </div>
+    <p class="footer-copy">&copy; {{ currentYear }} Hanisha EXIM. {{ 'footer.copyright' | translate }}</p>
+  </div>
+</footer>

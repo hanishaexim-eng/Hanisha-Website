@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "products": "Produkte",
+    "why_us": "Warum wir",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Handelsunternehmen • Weltweite Lieferung",
+    "title": "Ihr Zugang zum",
+    "title_em": "globalen Handel",
+    "desc": "Wir beschaffen, exportieren und liefern Qualitätsprodukte auf allen Kontinenten. Von Rohstoffen bis zu Fertigwaren—ein vertrauenswürdiger Partner für Ihren Außenhandel.",
+    "get_quote": "Angebot anfordern",
+    "our_services": "Unsere Leistungen",
+    "stat_support": "Handelssupport"
+  },
+  "services": {
+    "badge": "Was wir tun",
+    "title": "Export- & Importlösungen",
+    "desc": "Komplette Handelsdienstleistungen für Unternehmen jeder Größe.",
+    "sourcing_title": "Beschaffung & Einkauf",
+    "sourcing_desc": "Wir identifizieren und sichern qualifizierte Lieferanten weltweit. Rohstoffe, Komponenten oder Fertigprodukte—die richtige Quelle zum richtigen Preis.",
+    "export_title": "Export & Logistik",
+    "export_desc": "Reibungsloser Versand, Zollabwicklung und Dokumentation. FOB, CIF und Lieferung von Tür zu Tür.",
+    "import_title": "Import & Vertrieb",
+    "import_desc": "Waren aus jeder Herkunft empfangen. Wir übernehmen eingehende Logistik, Lagerkoordination und Lieferung.",
+    "finance_title": "Handelszahlungen",
+    "finance_desc": "Flexible Zahlungsbedingungen, Akkreditive und strukturierte Geschäfte."
+  },
+  "products": {
+    "badge": "Portfolio",
+    "title": "Produkte, die wir liefern",
+    "desc": "Verschiedene Kategorien—sagen Sie uns, was Sie brauchen; wir beschaffen und liefern.",
+    "agri": "Agrarprodukte",
+    "spices": "Gewürze",
+    "raw_materials": "Rohstoffe & Rohwaren",
+    "machinery": "Maschinen & Ausrüstung",
+    "textiles": "Textilien & Bekleidung",
+    "consumer": "Konsumgüter & FMCG"
+  },
+  "why_us": {
+    "badge": "Warum uns wählen",
+    "title": "Weltweit vertrauenswürdig",
+    "reliable_title": "Zuverlässiges Netzwerk",
+    "reliable_desc": "Geprüfte Lieferanten und Logistikpartner in wichtigen Märkten. Qualität und pünktliche Lieferung sind nicht verhandelbar.",
+    "transparent_title": "Transparente Geschäfte",
+    "transparent_desc": "Klare Preise, ehrliche Kommunikation und vollständige Dokumentation. Keine versteckten Kosten.",
+    "scalable_title": "Skalierbare Lösungen",
+    "scalable_desc": "Von Musterbestellungen bis Containerladungen. Wir wachsen mit Ihrem Unternehmen."
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "title": "Starten Sie Ihr nächstes Geschäft",
+    "desc": "Beschreiben Sie Ihren Produktbedarf oder fordern Sie ein Angebot an. Wir antworten innerhalb von 24 Stunden.",
+    "success_msg": "Vielen Dank! Ihre Anfrage ist eingegangen. Wir melden uns innerhalb von 24 Stunden.",
+    "name_label": "Ihr Name / Firma *",
+    "name_placeholder": "Firma oder Ansprechpartner",
+    "email_label": "E-Mail *",
+    "email_placeholder": "sie@firma.com",
+    "subject_label": "Produkt / Anfrage *",
+    "subject_placeholder": "z. B. Baumwollstoff, Maschinenteile",
+    "message_label": "Nachricht",
+    "message_placeholder": "Menge, Zielort, Incoterms...",
+    "send_btn": "Anfrage senden",
+    "or": "— oder —",
+    "whatsapp_btn": "WhatsApp-Anfrage",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Export • Import • Weltweiter Handel",
+    "copyright": "Alle Rechte vorbehalten."
+  }
+}

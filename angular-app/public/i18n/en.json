@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "products": "Products",
+    "why_us": "Why Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Merchant Trader • Worldwide Supply",
+    "title": "Your Gateway to",
+    "title_em": "Global Commerce",
+    "desc": "We source, export, and deliver quality products across continents. From raw materials to finished goods—one trusted partner for your international trade needs.",
+    "get_quote": "Get a Quote",
+    "our_services": "Our Services",
+    "stat_support": "Trade Support"
+  },
+  "services": {
+    "badge": "What We Do",
+    "title": "Export & Import Solutions",
+    "desc": "End-to-end trading services tailored for businesses of every scale.",
+    "sourcing_title": "Sourcing & Procurement",
+    "sourcing_desc": "We identify and secure quality suppliers worldwide. Raw materials, components, or finished products—we find the right source at the right price.",
+    "export_title": "Export & Logistics",
+    "export_desc": "Seamless shipping, customs clearance, and documentation. We handle FOB, CIF, and door-to-door delivery so you focus on your business.",
+    "import_title": "Import & Distribution",
+    "import_desc": "Receive goods from any origin. We manage inbound logistics, warehousing coordination, and delivery to your doorstep or warehouse.",
+    "finance_title": "Trade Payments",
+    "finance_desc": "Flexible payment terms like Letters of credit, and structured deals to support your cash flow."
+  },
+  "products": {
+    "badge": "Portfolio",
+    "title": "Products We Supply",
+    "desc": "Diverse categories—tell us what you need; we source and deliver.",
+    "agri": "Agri Products",
+    "spices": "Spices",
+    "raw_materials": "Raw Materials & Commodities",
+    "machinery": "Machinery & Equipment",
+    "textiles": "Textiles & Garments",
+    "consumer": "Consumer & FMCG"
+  },
+  "why_us": {
+    "badge": "Why Choose Us",
+    "title": "Trusted Across the Globe",
+    "reliable_title": "Reliable Network",
+    "reliable_desc": "Vetted suppliers and logistics partners in key markets. Quality and on-time delivery are non-negotiable.",
+    "transparent_title": "Transparent Dealings",
+    "transparent_desc": "Clear pricing, honest communication, and full documentation. No hidden costs or surprises.",
+    "scalable_title": "Scalable Solutions",
+    "scalable_desc": "From sample orders to container loads. We scale with your growth and adapt to your requirements."
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Start Your Next Deal",
+    "desc": "Describe your product needs or request a quote. We respond within 24 hours.",
+    "success_msg": "Thank you! Your inquiry has been received. We will get back to you within 24 hours.",
+    "name_label": "Your Name / Company *",
+    "name_placeholder": "Company or contact name",
+    "email_label": "Email *",
+    "email_placeholder": "you@company.com",
+    "subject_label": "Product / Inquiry *",
+    "subject_placeholder": "e.g. Cotton fabric, machinery parts",
+    "message_label": "Message",
+    "message_placeholder": "Quantity, destination, Incoterms, or any specifics...",
+    "send_btn": "Send Inquiry",
+    "or": "— or —",
+    "whatsapp_btn": "WhatsApp Enquiry",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "tagline": "Export • Import • Merchant Trading Worldwide",
+    "copyright": "All rights reserved."
+  }
+}
