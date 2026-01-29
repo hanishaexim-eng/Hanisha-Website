@@ -1,9 +1,12 @@
 <header class="header">
   <nav class="nav container">
-    <a href="#" class="logo" (click)="scrollTo('home'); $event.preventDefault()">
-      <span class="logo-icon">◆</span>
-      <span class="logo-text">HANISHA EXIM</span>
-    </a>
+    <div class="nav-brand">
+      <a href="#" class="logo" (click)="scrollTo('home'); $event.preventDefault()">
+        <span class="logo-icon">◆</span>
+        <span class="logo-text">HANISHA EXIM</span>
+      </a>
+      
+    </div>
     <button type="button" class="nav-toggle" aria-label="Toggle menu" [attr.aria-expanded]="navOpen" (click)="toggleNav()">
       <span></span>
       <span></span>
@@ -52,6 +55,10 @@
         
         <div class="hero-visual" aria-hidden="true">
           <img src="/logo.png" alt="Hanisha EXIM" class="hero-visual-logo">
+        </div>
+        <!-- Add IEC Code here -->
+        <div class="hero-iec">
+          <span class="header-iec" title="Import Export Code">IEC: NYAPK9932C</span>
         </div>
         
       </div>
@@ -181,6 +188,7 @@
         </div>
       </form>
       <div class="contact-info">
+        <p class="contact-iec"><strong>IEC Code:</strong> NYAPK9932C</p>
         <p><strong>{{ 'contact.email' | translate }}:</strong> <a href="mailto:hanishaexim&#64;gmail.com">hanishaexim&#64;gmail.com</a></p>
         <p><strong>{{ 'contact.phone' | translate }}:</strong> +91 9363908507</p>
         <p><strong>{{ 'contact.whatsapp' | translate }}:</strong> <a href="https://wa.me/919363908507" target="_blank" rel="noopener noreferrer">+91 9363908507</a></p>
@@ -198,6 +206,7 @@
           <img src="/logo.png" alt="Hanisha EXIM" class="logo-img">
         </a>
         <p>{{ 'footer.tagline' | translate }}</p>
+        <p class="footer-iec">IEC Code: <strong>NYAPK9932C</strong></p>
       </div>
       <div class="footer-links">
         <a href="#home" (click)="scrollTo('home'); $event.preventDefault()">{{ 'nav.home' | translate }}</a>
