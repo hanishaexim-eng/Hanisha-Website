@@ -4,8 +4,8 @@ import { FormsModule, NgForm } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 
-// In dev, ng serve proxies /api to http://localhost:3000. Backend must be running (cd server && npm start).
-const API_URL = '/api';
+// Deployed backend (Vercel): https://hanisha-website-57pq.vercel.app
+const API_URL = 'https://hanisha-website-57pq.vercel.app';
 
 @Component({
   selector: 'app-root',
