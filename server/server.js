@@ -47,9 +47,11 @@ app.post("/send", async (req, res) => {
       return res.status(400).json({ ok: false, error: "Name, email and subject are required." });
     }
 
+    // Recipient: use RECIPIENT_EMAIL so contact form goes to business, not sender account
+    const recipientEmail = process.env.RECIPIENT_EMAIL || "hanishaexim@gmail.com";
     const mailOptions = {
       from: `"Hanisha EXIM Website" <${process.env.GMAIL_USER}>`,
-      to: process.env.RECIPIENT_EMAIL || process.env.GMAIL_USER,
+      to: recipientEmail,
       replyTo: email,
       subject: `[Website] ${subject}`,
       text: [
