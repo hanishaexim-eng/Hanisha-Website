@@ -47,13 +47,21 @@
     "transparent_title": "Transactions transparentes",
     "transparent_desc": "Prix clairs, communication honnête et documentation complète. Pas de coûts cachés.",
     "scalable_title": "Solutions évolutives",
-    "scalable_desc": "Des échantillons aux conteneurs complets. Nous grandissons avec vous."
+    "scalable_desc": "Des échantillons aux conteneurs complets. Nous grandissons avec vous.",
+    "points_heading": "Plus de raisons de travailler avec nous",
+    "point_1": "Mises à jour quotidiennes sur l'état des produits pendant le délai de livraison pour rester informé à chaque étape.",
+    "point_2": "Gestionnaires de compte et ressources dédiés pour accompagner vos commandes et demandes.",
+    "point_3": "Documentation de bout en bout et accompagnement conformité pour des douanes et réglementations fluides.",
+    "point_4": "Conditions de paiement flexibles et options de financement structurées pour votre trésorerie.",
+    "point_5": "Communication proactive à chaque étape de l'expédition—de l'approvisionnement à la livraison."
   },
   "contact": {
     "badge": "Contactez-nous",
     "title": "Lancez votre prochaine affaire",
     "desc": "Décrivez vos besoins en produits ou demandez un devis. Réponse sous 24 h.",
     "success_msg": "Merci ! Votre demande a bien été reçue. Nous répondrons sous 24 h.",
+    "error_msg": "Une erreur s'est produite. Réessayez ou contactez-nous via WhatsApp.",
+    "sending": "Envoi en cours…",
     "name_label": "Votre nom / Société *",
     "name_placeholder": "Société ou nom du contact",
     "email_label": "E-mail *",

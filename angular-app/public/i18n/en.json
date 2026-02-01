@@ -47,13 +47,21 @@
     "transparent_title": "Transparent Dealings",
     "transparent_desc": "Clear pricing, honest communication, and full documentation. No hidden costs or surprises.",
     "scalable_title": "Scalable Solutions",
-    "scalable_desc": "From sample orders to container loads. We scale with your growth and adapt to your requirements."
+    "scalable_desc": "From sample orders to container loads. We scale with your growth and adapt to your requirements.",
+    "points_heading": "More reasons to work with us",
+    "point_1": "Daily updates on product status during lead time so you stay informed at every step.",
+    "point_2": "Dedicated account managers and resources to support your orders and inquiries.",
+    "point_3": "End-to-end documentation and compliance support for smooth customs and regulations.",
+    "point_4": "Flexible payment terms and structured financing options to support your cash flow.",
+    "point_5": "Proactive communication at every stage of the shipment—from sourcing to delivery."
   },
   "contact": {
     "badge": "Get in Touch",
     "title": "Start Your Next Deal",
     "desc": "Describe your product needs or request a quote. We respond within 24 hours.",
     "success_msg": "Thank you! Your inquiry has been received. We will get back to you within 24 hours.",
+    "error_msg": "Something went wrong. Please try again or contact us via WhatsApp.",
+    "sending": "Sending…",
     "name_label": "Your Name / Company *",
     "name_placeholder": "Company or contact name",
     "email_label": "Email *",

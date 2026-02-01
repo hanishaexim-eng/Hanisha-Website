@@ -47,13 +47,21 @@
     "transparent_title": "透明交易",
     "transparent_desc": "清晰定价、诚信沟通与完整单证。无隐藏费用。",
     "scalable_title": "可扩展方案",
-    "scalable_desc": "从样品到整柜。随您业务成长而扩展。"
+    "scalable_desc": "从样品到整柜。随您业务成长而扩展。",
+    "points_heading": "更多选择我们的理由",
+    "point_1": "交货期内每日更新产品状态，让您随时掌握每一步进展。",
+    "point_2": "专属客户经理与资源，全程支持您的订单与询盘。",
+    "point_3": "端到端单证与合规支持，确保清关与法规顺畅。",
+    "point_4": "灵活付款条件与结构化融资选项，支持您的现金流。",
+    "point_5": "从采购到交付，在运输各阶段主动沟通。"
   },
   "contact": {
     "badge": "联系我们",
     "title": "开启您的下一笔交易",
     "desc": "描述您的产品需求或索取报价。24小时内回复。",
     "success_msg": "感谢！您的询盘已收到。我们将在24小时内回复。",
+    "error_msg": "出了点问题。请重试或通过 WhatsApp 联系我们。",
+    "sending": "发送中…",
     "name_label": "您的姓名 / 公司 *",
     "name_placeholder": "公司或联系人名称",
     "email_label": "邮箱 *",

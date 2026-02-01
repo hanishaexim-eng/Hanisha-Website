@@ -47,13 +47,21 @@
     "transparent_title": "Trato transparente",
     "transparent_desc": "Precios claros, comunicación honesta y documentación completa. Sin costos ocultos.",
     "scalable_title": "Soluciones escalables",
-    "scalable_desc": "Desde muestras hasta contenedores completos. Escalamos con su crecimiento."
+    "scalable_desc": "Desde muestras hasta contenedores completos. Escalamos con su crecimiento.",
+    "points_heading": "Más razones para trabajar con nosotros",
+    "point_1": "Actualizaciones diarias del estado del producto durante el plazo de entrega para que esté informado en cada paso.",
+    "point_2": "Gestores de cuenta y recursos dedicados para apoyar sus pedidos y consultas.",
+    "point_3": "Documentación de extremo a extremo y apoyo en cumplimiento para aduanas y normativas sin contratiempos.",
+    "point_4": "Condiciones de pago flexibles y opciones de financiación estructuradas para su flujo de caja.",
+    "point_5": "Comunicación proactiva en cada etapa del envío—desde el abastecimiento hasta la entrega."
   },
   "contact": {
     "badge": "Contáctenos",
     "title": "Inicie su próximo negocio",
     "desc": "Describa sus necesidades de productos o solicite una cotización. Respondemos en 24 horas.",
     "success_msg": "¡Gracias! Su consulta ha sido recibida. Le responderemos en 24 horas.",
+    "error_msg": "Algo salió mal. Intente de nuevo o contáctenos por WhatsApp.",
+    "sending": "Enviando…",
     "name_label": "Su nombre / Empresa *",
     "name_placeholder": "Empresa o nombre de contacto",
     "email_label": "Correo electrónico *",

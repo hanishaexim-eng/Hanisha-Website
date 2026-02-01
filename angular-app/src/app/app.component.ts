@@ -1,7 +1,11 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, NgForm } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+
+// In dev, ng serve proxies /api to http://localhost:3000. Backend must be running (cd server && npm start).
+const API_URL = '/api';
 
 @Component({
   selector: 'app-root',
@@ -14,8 +18,10 @@ export class AppComponent {
   currentYear = new Date().getFullYear();
   navOpen = false;
   formSuccess = false;
+  formError = '';
+  formSubmitting = false;
   contact = { name: '', email: '', subject: '', message: '' };
-
+  whyUsExpanded = true;
   currentLang = 'en';
   languages = [
     { code: 'en', label: 'English' },
@@ -28,7 +34,10 @@ export class AppComponent {
     { code: 'fr', label: 'Français' },
   ];
 
-  constructor(public translate: TranslateService) {
+  constructor(
+    public translate: TranslateService,
+    private http: HttpClient
+  ) {
     const saved = localStorage.getItem('lang');
     const lang = saved || 'en';
     this.currentLang = lang;
@@ -64,9 +73,20 @@ export class AppComponent {
 
   onSubmit(form: NgForm): void {
     if (form.valid !== true) return;
-    this.formSuccess = true;
-    this.contact = { name: '', email: '', subject: '', message: '' };
-    form.resetForm();
-    setTimeout(() => (this.formSuccess = false), 5000);
+    this.formError = '';
+    this.formSubmitting = true;
+    this.http.post<{ ok: boolean; error?: string }>(`${API_URL}/send`, this.contact).subscribe({
+      next: () => {
+        this.formSuccess = true;
+        this.contact = { name: '', email: '', subject: '', message: '' };
+        form.resetForm();
+        this.formSubmitting = false;
+        setTimeout(() => (this.formSuccess = false), 5000);
+      },
+      error: (err) => {
+        this.formSubmitting = false;
+        this.formError = err?.error?.error || err?.message || 'contact.error_msg';
+      },
+    });
   }
 }

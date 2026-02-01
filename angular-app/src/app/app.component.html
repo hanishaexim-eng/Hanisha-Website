@@ -150,6 +150,15 @@
           <p>{{ 'why_us.scalable_desc' | translate }}</p>
         </div>
       </div>
+      <div id="why-us-points" class="why-us-points" [class.expanded]="whyUsExpanded" role="region" [attr.aria-label]="'why_us.points_heading' | translate">
+        <p class="why-us-points-heading">{{ 'why_us.points_heading' | translate }}</p>
+        <ul class="why-us-points-list">
+          <li><span class="why-us-point-icon">✓</span>{{ 'why_us.point_1' | translate }}</li>
+          <li><span class="why-us-point-icon">✓</span>{{ 'why_us.point_2' | translate }}</li>
+          <li><span class="why-us-point-icon">✓</span>{{ 'why_us.point_3' | translate }}</li>
+          <li><span class="why-us-point-icon">✓</span>{{ 'why_us.point_5' | translate }}</li>
+        </ul>
+      </div>
     </div>
   </section>
 
@@ -161,6 +170,9 @@
       <form class="contact-form" (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
         @if (formSuccess) {
           <div class="form-message success show">{{ 'contact.success_msg' | translate }}</div>
+        }
+        @if (formError) {
+          <div class="form-message error show">{{ formError.startsWith('contact.') ? (formError | translate) : formError }}</div>
         }
         <div class="form-row">
           <label for="name">{{ 'contact.name_label' | translate }}</label>
@@ -178,7 +190,9 @@
           <label for="message">{{ 'contact.message_label' | translate }}</label>
           <textarea id="message" name="message" rows="4" [(ngModel)]="contact.message" [placeholder]="'contact.message_placeholder' | translate"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-full">{{ 'contact.send_btn' | translate }}</button>
+        <button type="submit" class="btn btn-primary btn-full" [disabled]="formSubmitting">
+          {{ formSubmitting ? ('contact.sending' | translate) : ('contact.send_btn' | translate) }}
+        </button>
         <div class="contact-whatsapp">
           <span class="contact-or">{{ 'contact.or' | translate }}</span>
           <a href="https://wa.me/919363908507?text=Hi%2C%20I'm%20interested%20in%20your%20export%2Fimport%20services.%20Could%20you%20please%20share%20more%20details%3F" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">

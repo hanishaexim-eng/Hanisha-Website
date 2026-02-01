@@ -47,13 +47,21 @@
     "transparent_title": "Transparente Geschäfte",
     "transparent_desc": "Klare Preise, ehrliche Kommunikation und vollständige Dokumentation. Keine versteckten Kosten.",
     "scalable_title": "Skalierbare Lösungen",
-    "scalable_desc": "Von Musterbestellungen bis Containerladungen. Wir wachsen mit Ihrem Unternehmen."
+    "scalable_desc": "Von Musterbestellungen bis Containerladungen. Wir wachsen mit Ihrem Unternehmen.",
+    "points_heading": "Weitere Gründe, mit uns zu arbeiten",
+    "point_1": "Tägliche Updates zum Produktstatus während der Lieferzeit—Sie bleiben in jeder Phase informiert.",
+    "point_2": "Feste Ansprechpartner und Ressourcen zur Unterstützung Ihrer Bestellungen und Anfragen.",
+    "point_3": "Durchgängige Dokumentation und Compliance-Unterstützung für reibungslose Zoll- und Vorschriftenabwicklung.",
+    "point_4": "Flexible Zahlungsbedingungen und strukturierte Finanzierungsoptionen für Ihren Cashflow.",
+    "point_5": "Proaktive Kommunikation in jeder Phase der Sendung—von der Beschaffung bis zur Lieferung."
   },
   "contact": {
     "badge": "Kontakt",
     "title": "Starten Sie Ihr nächstes Geschäft",
     "desc": "Beschreiben Sie Ihren Produktbedarf oder fordern Sie ein Angebot an. Wir antworten innerhalb von 24 Stunden.",
     "success_msg": "Vielen Dank! Ihre Anfrage ist eingegangen. Wir melden uns innerhalb von 24 Stunden.",
+    "error_msg": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns per WhatsApp.",
+    "sending": "Wird gesendet…",
     "name_label": "Ihr Name / Firma *",
     "name_placeholder": "Firma oder Ansprechpartner",
     "email_label": "E-Mail *",

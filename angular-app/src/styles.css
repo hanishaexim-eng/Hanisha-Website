@@ -351,18 +351,57 @@ img {
   color: var(--color-text-muted);
 }
 
-/* Hero right side (desktop) */
+/* Hero right side – visible on mobile (below content) and desktop (side) */
 .hero-right {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  order: 1;
+}
+
+.hero-content {
+  order: 0;
+}
+
+.hero-visual {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1;
+  border-radius: 25%;
+  background: linear-gradient(145deg, rgba(196, 154, 58, 0.12) 0%, rgba(45, 143, 122, 0.1) 100%);
+  border: 12px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  isolation: isolate;
+}
+
+.hero-visual-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: saturate(1.05) sepia(0.08);
+  mix-blend-mode: multiply;
 }
 
 @media (min-width: 960px) {
   .hero-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    order: unset;
     gap: 1.5rem;
+  }
+
+  .hero-content {
+    order: unset;
+  }
+
+  .hero-visual {
+    max-width: 320px;
+    border-width: 19px;
+    padding: 1.5rem;
   }
 
   .hero-highlights {
@@ -416,29 +455,6 @@ img {
     color: var(--color-primary-dim);
     font-size: 0.7rem;
     font-weight: 700;
-  }
-
-  .hero-visual {
-    width: 100%;
-    max-width: 320px;
-    aspect-ratio: 1;
-    border-radius: 25%;
-    background: linear-gradient(145deg, rgba(196, 154, 58, 0.12) 0%, rgba(45, 143, 122, 0.1) 100%);
-    border: 19px solid var(--color-border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    box-sizing: border-box;
-    isolation: isolate;
-  }
-
-  .hero-visual-logo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    filter: saturate(1.05) sepia(0.08);
-    mix-blend-mode: multiply;
   }
 
   .hero-flags {
@@ -645,6 +661,105 @@ img {
   .why-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* Why Us – clickable header & expandable points */
+.why-us-header {
+  display: block;
+  width: 100%;
+  text-align: start;
+  background: none;
+  border: none;
+  padding: 0 0 1.5rem;
+  margin: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  position: relative;
+  transition: opacity var(--transition);
+}
+
+.why-us-header:hover {
+  opacity: 0.9;
+}
+
+.why-us-header:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius);
+}
+
+.why-us-chevron {
+  display: inline-block;
+  font-size: 0.7rem;
+  color: var(--color-primary);
+  margin-top: 0.5rem;
+  transition: transform var(--transition);
+}
+
+.why-us-chevron.expanded {
+  transform: rotate(180deg);
+}
+
+.why-us-points {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+
+.why-us-points.expanded {
+  max-height: 520px;
+}
+
+.why-us-points-heading {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.why-us-points-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.why-us-points-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.why-us-points-list li:hover {
+  border-color: rgba(196, 154, 58, 0.35);
+  box-shadow: 0 2px 12px rgba(26, 34, 52, 0.06);
+}
+
+.why-us-point-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: rgba(196, 154, 58, 0.2);
+  color: var(--color-primary-dim);
+  font-size: 0.7rem;
+  font-weight: 700;
 }
 
 /* ----- Contact ----- */
