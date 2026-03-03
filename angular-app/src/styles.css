@@ -617,7 +617,7 @@ img {
 }
 
 .product-item-with-specs .product-media.media-image {
-  min-height: 100%;
+  min-height: 100% !important
 }
 
 .product-image {
@@ -793,7 +793,7 @@ img {
   }
 
   .product-media.media-image .product-image {
-    min-height: 0;
+    min-height: 100% !important;
   }
 
   .product-spec-table .spec-row {
