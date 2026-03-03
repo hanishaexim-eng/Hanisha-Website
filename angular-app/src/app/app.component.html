@@ -100,31 +100,119 @@
       <p class="section-badge">{{ 'products.badge' | translate }}</p>
       <h2 class="section-title">{{ 'products.title' | translate }}</h2>
       <p class="section-desc">{{ 'products.desc' | translate }}</p>
-      <div class="products-grid">
-        <div class="product-category">
-          <span class="product-icon">🌾</span>
-          <h4>{{ 'products.agri' | translate }}</h4>
-        </div>
-        <div class="product-category">
-          <span class="product-icon">🌶️</span>
-          <h4>{{ 'products.spices' | translate }}</h4>
-        </div>
-        <div class="product-category">
-          <span class="product-icon">🏭</span>
-          <h4>{{ 'products.raw_materials' | translate }}</h4>
-        </div>
-        <div class="product-category">
-          <span class="product-icon">⚙️</span>
-          <h4>{{ 'products.machinery' | translate }}</h4>
-        </div>
-        <div class="product-category">
-          <span class="product-icon">👕</span>
-          <h4>{{ 'products.textiles' | translate }}</h4>
-        </div>
-        <div class="product-category">
-          <span class="product-icon">🛒</span>
-          <h4>{{ 'products.consumer' | translate }}</h4>
-        </div>
+      <div class="products-showcase">
+        <!-- 1. Agarbathi (Incense Sticks) -->
+        <article class="product-item product-item-with-specs">
+          <div class="product-media media-image">
+            <img class="product-image" src="/products/agarbathi.png" [alt]="'products.items.agarbathi.name' | translate">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">{{ 'products.items.agarbathi.name' | translate }}</h3>
+            <p class="product-subtitle">{{ 'products.items.agarbathi.subtitle' | translate }}</p>
+            <p class="product-specs-heading">{{ 'products.items.agarbathi.details.heading' | translate }}</p>
+            <dl class="product-spec-table product-spec-table-grid">
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.type_label' | translate }}</dt><dd><span class="spec-seo-keyword">Scented</span> {{ 'products.items.agarbathi.details.type_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.scent_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.scent_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.material_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.material_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.wood_type_label' | translate }}</dt><dd><span class="spec-seo-keyword">Natural</span> {{ 'products.items.agarbathi.details.wood_type_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.use_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.use_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.size_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.size_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.weight_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.weight_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.quantity_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.quantity_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.package_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.package_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.moq_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.moq_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.agarbathi.details.origin_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.origin_value' | translate }}</dd></div>
+              <div class="spec-row spec-row-hsn"><dt>{{ 'products.items.agarbathi.details.hsn_label' | translate }}</dt><dd>{{ 'products.items.agarbathi.details.hsn_value' | translate }}</dd></div>
+            </dl>
+            <p class="spec-seo-line"><span class="spec-seo-keyword">scented incense stick</span> · <span class="spec-seo-keyword">fragrant incense</span> · <span class="spec-seo-keyword">natural agarbathi</span></p>
+          </div>
+        </article>
+
+        <!-- 2. Dhop (Cone Incense) - next to Agarbathi -->
+        <article class="product-item product-item-with-specs">
+          <div class="product-media media-image">
+            <img class="product-image" src="/products/dhop.png" [alt]="'products.items.dhop.name' | translate">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">{{ 'products.items.dhop.name' | translate }}</h3>
+            <p class="product-subtitle">{{ 'products.items.dhop.subtitle' | translate }}</p>
+            <p class="product-specs-heading">{{ 'products.items.dhop.details.heading' | translate }}</p>
+            <dl class="product-spec-table product-spec-table-grid">
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.type_label' | translate }}</dt><dd><span class="spec-seo-keyword">Scented</span> {{ 'products.items.dhop.details.type_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.scent_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.scent_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.material_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.material_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.burn_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.burn_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.use_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.use_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.package_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.package_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.moq_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.moq_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.dhop.details.origin_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.origin_value' | translate }}</dd></div>
+              <div class="spec-row spec-row-hsn"><dt>{{ 'products.items.dhop.details.hsn_label' | translate }}</dt><dd>{{ 'products.items.dhop.details.hsn_value' | translate }}</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <!-- 3. Match Box -->
+        <article class="product-item product-item-with-specs">
+          <div class="product-media media-image">
+            <img class="product-image" src="/products/matchbox.png" [alt]="'products.items.matchbox.name' | translate">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">{{ 'products.items.matchbox.name' | translate }}</h3>
+            <p class="product-subtitle">{{ 'products.items.matchbox.subtitle' | translate }}</p>
+            <p class="product-specs-heading">{{ 'products.items.matchbox.details.heading' | translate }}</p>
+            <dl class="product-spec-table product-spec-table-grid">
+              <div class="spec-row"><dt>{{ 'products.items.matchbox.details.type_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.type_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.matchbox.details.material_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.material_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.matchbox.details.size_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.size_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.matchbox.details.package_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.package_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.matchbox.details.moq_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.moq_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.matchbox.details.origin_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.origin_value' | translate }}</dd></div>
+              <div class="spec-row spec-row-hsn"><dt>{{ 'products.items.matchbox.details.hsn_label' | translate }}</dt><dd>{{ 'products.items.matchbox.details.hsn_value' | translate }}</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <!-- 4. Lungi -->
+        <article class="product-item product-item-with-specs">
+          <div class="product-media media-image">
+            <img class="product-image" src="/products/lungi.png" [alt]="'products.items.lungi.name' | translate">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">{{ 'products.items.lungi.name' | translate }}</h3>
+            <p class="product-subtitle">{{ 'products.items.lungi.subtitle' | translate }}</p>
+            <p class="product-specs-heading">{{ 'products.items.lungi.details.heading' | translate }}</p>
+            <dl class="product-spec-table product-spec-table-grid">
+              <div class="spec-row"><dt>{{ 'products.items.lungi.details.fabric_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.fabric_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.lungi.details.length_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.length_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.lungi.details.pattern_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.pattern_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.lungi.details.package_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.package_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.lungi.details.moq_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.moq_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.lungi.details.origin_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.origin_value' | translate }}</dd></div>
+              <div class="spec-row spec-row-hsn"><dt>{{ 'products.items.lungi.details.hsn_label' | translate }}</dt><dd>{{ 'products.items.lungi.details.hsn_value' | translate }}</dd></div>
+            </dl>
+          </div>
+        </article>
+
+        <!-- 5. Turmeric Powder -->
+        <article class="product-item product-item-with-specs">
+          <div class="product-media media-image">
+            <img class="product-image" src="/products/turmeric.png" [alt]="'products.items.turmeric.name' | translate">
+          </div>
+          <div class="product-content">
+            <h3 class="product-title">{{ 'products.items.turmeric.name' | translate }}</h3>
+            <p class="product-subtitle">{{ 'products.items.turmeric.subtitle' | translate }}</p>
+            <p class="product-specs-heading">{{ 'products.items.turmeric.details.heading' | translate }}</p>
+            <dl class="product-spec-table product-spec-table-grid">
+              <div class="spec-row"><dt>{{ 'products.items.turmeric.details.form_label' | translate }}</dt><dd>{{ 'products.items.turmeric.details.form_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.turmeric.details.purity_label' | translate }}</dt><dd>{{ 'products.items.turmeric.details.purity_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.turmeric.details.package_label' | translate }}</dt><dd>{{ 'products.items.turmeric.details.package_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.turmeric.details.moq_label' | translate }}</dt><dd>{{ 'products.items.turmeric.details.moq_value' | translate }}</dd></div>
+              <div class="spec-row"><dt>{{ 'products.items.turmeric.details.origin_label' | translate }}</dt><dd>{{ 'products.items.turmeric.details.origin_value' | translate }}</dd></div>
+              <div class="spec-row spec-row-hsn"><dt>{{ 'products.items.turmeric.details.hsn_label' | translate }}</dt><dd>{{ 'products.items.turmeric.details.hsn_value' | translate }}</dd></div>
+            </dl>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
